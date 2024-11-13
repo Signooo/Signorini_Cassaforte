@@ -67,7 +67,7 @@ namespace Signorini_Cassaforte
             }        
             else return ;
         }
-        public void Chiudi(string pin)
+        public void Chiudi()
         {
             stato = 'C';
         }
