@@ -1,0 +1,17 @@
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\obj\Debug\net8.0-windows\Signorini_Cassaforte.Form1.resources
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\obj\Debug\net8.0-windows\Signorini_Cassaforte.csproj.GenerateResource.cache
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\obj\Debug\net8.0-windows\Signorini_Cassaforte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\obj\Debug\net8.0-windows\Signorini_Cassaforte.AssemblyInfoInputs.cache
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\obj\Debug\net8.0-windows\Signorini_Cassaforte.AssemblyInfo.cs
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\obj\Debug\net8.0-windows\Signorini_Cassaforte.csproj.CoreCompileInputs.cache
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\obj\Debug\net8.0-windows\Signorini_Cassaforte.sourcelink.json
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\bin\Debug\net8.0-windows\Signorini_Cassaforte.exe
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\bin\Debug\net8.0-windows\Signorini_Cassaforte.deps.json
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\bin\Debug\net8.0-windows\Signorini_Cassaforte.runtimeconfig.json
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\bin\Debug\net8.0-windows\Signorini_Cassaforte.dll
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\bin\Debug\net8.0-windows\Signorini_Cassaforte.pdb
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\obj\Debug\net8.0-windows\Signorini_Cassaforte.dll
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\obj\Debug\net8.0-windows\refint\Signorini_Cassaforte.dll
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\obj\Debug\net8.0-windows\Signorini_Cassaforte.pdb
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\obj\Debug\net8.0-windows\Signorini_Cassaforte.genruntimeconfig.cache
+C:\Users\Signorini.21287\Desktop\Signorini_Cassaforte\Signorini_Cassaforte\Signorini_Cassaforte\obj\Debug\net8.0-windows\ref\Signorini_Cassaforte.dll

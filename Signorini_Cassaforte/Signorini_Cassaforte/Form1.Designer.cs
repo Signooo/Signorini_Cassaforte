@@ -28,42 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox3 = new TextBox();
             numericUpDown1 = new NumericUpDown();
             numericUpDown2 = new NumericUpDown();
-            textBox2 = new TextBox();
             numericUpDown3 = new NumericUpDown();
             BottonePin = new Button();
             BottoneApri = new Button();
             BottoneChiudi = new Button();
             BottoneCodice = new Button();
             Cassaforte = new Button();
-            textBox4 = new TextBox();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
             SuspendLayout();
             // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(232, 80);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(212, 23);
-            textBox1.TabIndex = 0;
-            textBox1.Text = "Inserisci il Pin per aprire la cassforte";
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(618, 80);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(166, 23);
-            textBox3.TabIndex = 2;
-            textBox3.Text = "Inserisci il codice segreto";
-            // 
             // numericUpDown1
             // 
             numericUpDown1.Location = new Point(274, 122);
+            numericUpDown1.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(120, 23);
             numericUpDown1.TabIndex = 3;
@@ -72,21 +57,15 @@
             // numericUpDown2
             // 
             numericUpDown2.Location = new Point(643, 122);
+            numericUpDown2.Maximum = new decimal(new int[] { -294420992, 1321, 0, 0 });
             numericUpDown2.Name = "numericUpDown2";
             numericUpDown2.Size = new Size(120, 23);
             numericUpDown2.TabIndex = 4;
             // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(31, 202);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(120, 23);
-            textBox2.TabIndex = 1;
-            textBox2.Text = "Inserisci il nuovo pin";
-            // 
             // numericUpDown3
             // 
             numericUpDown3.Location = new Point(31, 257);
+            numericUpDown3.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
             numericUpDown3.Name = "numericUpDown3";
             numericUpDown3.Size = new Size(120, 23);
             numericUpDown3.TabIndex = 5;
@@ -99,6 +78,7 @@
             BottonePin.TabIndex = 6;
             BottonePin.Text = "Crea nuovo pin";
             BottonePin.UseVisualStyleBackColor = true;
+            BottonePin.Click += BottonePin_Click;
             // 
             // BottoneApri
             // 
@@ -132,26 +112,57 @@
             // 
             // Cassaforte
             // 
-            Cassaforte.Location = new Point(477, 318);
+            Cassaforte.Location = new Point(481, 318);
             Cassaforte.Name = "Cassaforte";
             Cassaforte.Size = new Size(133, 90);
             Cassaforte.TabIndex = 10;
             Cassaforte.UseVisualStyleBackColor = true;
             // 
-            // textBox4
+            // label1
             // 
-            textBox4.Location = new Point(498, 289);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 11;
-            textBox4.Text = "Cassaforte";
+            label1.AutoSize = true;
+            label1.Location = new Point(643, 92);
+            label1.Name = "label1";
+            label1.Size = new Size(138, 15);
+            label1.TabIndex = 12;
+            label1.Text = "Inserisci il codice segreto";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(31, 230);
+            label2.Name = "label2";
+            label2.Size = new Size(115, 15);
+            label2.TabIndex = 13;
+            label2.Text = "Inserisci il nuovo pin";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(274, 92);
+            label3.Name = "label3";
+            label3.Size = new Size(199, 15);
+            label3.TabIndex = 14;
+            label3.Text = "Inserisci il pin per aprire la cassaforte";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(522, 300);
+            label4.Name = "label4";
+            label4.Size = new Size(60, 15);
+            label4.TabIndex = 15;
+            label4.Text = "cassaforte";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(843, 475);
-            Controls.Add(textBox4);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(Cassaforte);
             Controls.Add(BottoneCodice);
             Controls.Add(BottoneChiudi);
@@ -160,9 +171,6 @@
             Controls.Add(numericUpDown3);
             Controls.Add(numericUpDown2);
             Controls.Add(numericUpDown1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -174,18 +182,17 @@
         }
 
         #endregion
-
-        private TextBox textBox1;
-        private TextBox textBox3;
         private NumericUpDown numericUpDown1;
         private NumericUpDown numericUpDown2;
-        private TextBox textBox2;
         private NumericUpDown numericUpDown3;
         private Button BottonePin;
         private Button BottoneApri;
         private Button BottoneChiudi;
         private Button BottoneCodice;
         private Button Cassaforte;
-        private TextBox textBox4;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
     }
 }

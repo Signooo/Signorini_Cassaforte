@@ -14,6 +14,7 @@ namespace Signorini_Cassaforte
         private string codiceSblocco;
         private char stato='C';
         private string codice;
+        private int i = 0;
         public string NMatricola
         {
             get { return nMatricola; }
@@ -42,34 +43,46 @@ namespace Signorini_Cassaforte
             if (nuovoCodice.Length == 5)
             {
                 codice = nuovoCodice;
+                MessageBox.Show("Nuovo pin creato");
             }
-            else return;
-        }
+            else
+            {
+                MessageBox.Show("Inserire 5 numeri");
+            }
+
+            }
         public void Apri(string pin)
         {
-            int i = 0;
+            
             if(pin.Length == 5)
             {
-                if (pin == codice && stato == 'C' && i < 5)
+                if (pin == codice && stato == 'C')
                 {
                     stato = 'A';
+                    MessageBox.Show("cassaforte aperta");
                 }
                 else
-                    if (pin != codice && stato == 'C' && i < 5)
-                {
+                    if (pin != codice && stato == 'C' && i < 4)
+                    {   
                     MessageBox.Show("Codice errato");
+                    i++;
                 }
-                else
-                {
-                    MessageBox.Show("I 5 tentativi sono stati superati, inserire il codice di sblocco segreto");
-                    stato = 'B';
-                }
-            }        
-            else return ;
+                    else 
+
+                    {
+                        MessageBox.Show("I 5 tentativi sono stati superati, inserire il codice di sblocco segreto");
+                        stato = 'B';
+                    }
+            }
+            else
+            {
+                MessageBox.Show("Inserire 5 numeri");
+            }
         }
         public void Chiudi()
         {
             stato = 'C';
+            MessageBox.Show("cassaforte chiusa");
         }
         public void Sblocca(string codice)
         {
@@ -78,14 +91,17 @@ namespace Signorini_Cassaforte
                 if (codice == codiceSblocco && stato == 'B')
                 {
                     stato = 'A';
+                    MessageBox.Show("cassaforte aperta");
                 }
                 else
                 {
                     MessageBox.Show("Codice di sblocco errato");
                 }
             }
-            else return;
-            
+            else
+            {
+                MessageBox.Show("Inserire 5 numeri");
+            }
         }
 
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Signorini_Cassaforte")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b20ee791b89b1767c6c3f20e9dbab43228787a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3ef0803b1d44383b38cfa7b749fda281133c3b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Signorini_Cassaforte")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Signorini_Cassaforte")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
